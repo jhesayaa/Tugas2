@@ -1,0 +1,666 @@
+body {
+  background-color: bisque;
+
+    height: 20px;
+}
+
+.Judul {
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Judul h1{
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textbergerak {
+    background-color: rgba(255, 255, 255, 0.601);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.JADWALPELAJARAN {
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.tombol {
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 685px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.DAFTARJADWAL {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.601);
+}
+
+.DAFTARSISWA h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+    background-color: 255, 255, 255, 0.601;
+}
+
+.tabelsiswa div{
+    border: 3px solid black;
+    display: inline-block;
+    width: 250px;
+    font-size: large;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    text-align: left;
+}
+
+.tabelpiket div{
+    border: 3px solid black;
+    display: inline-block;
+    width: 250px;
+    color: black;
+    font-size: large;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    text-align: left;
+}
+
+.JADWALPIKET h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+}
+
+#videoku { 
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.video {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 295px;
+    background-color: rgb(248, 248, 248);
+}
+
+.video h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.vidlebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+}
+
+#fotoku {
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px;
+}
+
+.foto {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 283px;
+    background-color: rgb(248, 248, 248);
+}
+
+.foto h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+}
+.fotolebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+}
+
+/*pengaturan laptop*/
+@media screen and (max-width:1024px) {
+
+  body {
+    background-color: bisque;
+  }
+
+  audio {
+    margin-left: 55px;
+  }
+
+  button {
+    margin-top: 50px;
+    margin-left: 450px;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+
+  .DAFTARSISWA h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+    background-color: 255, 255, 255, 0.601;
+    margin-left: 45px;
+  }
+
+  #siswa {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 1px;
+   }
+
+
+   .tabelsiswa div{
+     border: 3px solid black;
+     display: inline-block;
+     width: 240px;
+     height: 200px;
+     font-size: large;
+     padding-left: 10px;
+     background-color: rgba(255, 255, 255, 0.601);
+     border-radius: 20px;
+     margin-bottom: 25px;
+   }
+
+   .JADWALPIKET h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+    margin-left: 45px;
+   }
+
+   #piket {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 1px;
+   }
+
+   .tabelpiket div{
+    border: 3px solid black;
+    display: inline-block;
+    width: 242px;
+    height: 220px;
+    font-size: large;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    margin-bottom: 25px;
+   }
+
+   .vidlebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: 70px;
+  }
+
+  .video h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #videoku { 
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+  }
+
+  .video {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 295px;
+    background-color: rgb(248, 248, 248);
+    margin-left: 67px;
+    margin-bottom: 100px;
+  }
+
+  #fotoku {
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px;
+  }
+
+  .foto {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 283px;
+    background-color: rgb(248, 248, 248);
+    margin-left: 67px;
+    margin-bottom: 100px;
+  }
+
+  .foto h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+  .fotolebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: 70px;
+  }
+}
+/*pengaturan tablet*/
+@media screen and (min-width:660px) and (max-width:768px) {
+
+    body {
+        background-size: cover;
+    }
+   .Judul {
+     color: rgb(2, 2, 2);
+     display: flex;
+     justify-content: center;
+     border-radius: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   .Judul h1{
+     border:  3px solid black;
+     background-color:rgba(255, 255, 255, 0.601);
+     padding: 8px;
+     border-radius: 10px;
+     margin-left: 190px;
+   }
+
+   .textbergerak {
+     background-color: rgba(255, 255, 255, 0.601);
+     color: rgb(0, 0, 0);
+     border-radius: 10px;
+     border: 3px solid black;
+     font-size: medium;
+     min-width: 910px;
+   }
+
+   audio {
+    margin-left: 180px;
+   }
+
+   button {
+     margin-top: 50px;
+     margin-left: 390px;
+     padding: 10px 10px;
+     border-radius: 10px;
+     font-size: medium;
+   }
+
+   .DAFTARSISWA h2{
+     border: 3px solid black;
+     background-color: aliceblue;
+    border-radius: 10px;
+     padding: 7px;
+     width: 300px;
+     background-color: 255, 255, 255, 0.601;
+     margin-left: 160px;
+   }
+
+   #siswa {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 150px;
+   }
+
+
+   .tabelsiswa div{
+     border: 3px solid black;
+     display: inline-block;
+     width: 250px;
+     height: 200px;
+     font-size: large;
+     padding-left: 10px;
+     background-color: rgba(255, 255, 255, 0.601);
+     border-radius: 20px;
+     margin-bottom: 10px;
+   }
+
+   .JADWALPIKET h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 7px;
+    width: 300px;
+    margin-left: 160px;
+   }
+
+   #piket {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 150px;
+   }
+
+   .tabelpiket div{
+    border: 3px solid black;
+    display: inline-block;
+    width: 250px;
+    height: 220px;
+    font-size: large;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    margin-bottom: 25px;
+   }
+
+   .vidlebaran h2 {
+     border: 3px solid black;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: aliceblue;
+     width: 400px;
+     margin-left: 200px;
+   }
+
+   .video h3 {
+     border:  3px solid black;
+     background-color:rgba(255, 255, 255, 0.601);
+     padding: 10px;
+     border-radius: 10px;
+   }
+
+   #videoku { 
+     color: rgb(19, 17, 17);
+     margin-top: 200px;
+     width: 95%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px; 
+     text-align: center;
+   }
+
+   .video {
+     display: inline-block;
+     border: 3px solid rgb(1, 1, 1);
+     padding: 5px;
+     height: 295px;
+     background-color: rgb(248, 248, 248);
+     margin-left: 185px;
+     margin-bottom: 100px;
+   }
+
+   #fotoku {
+     color: rgb(19, 17, 17);
+     margin-top: 200px;
+     width: 95%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px; 
+     text-align: center;
+     padding: 10px;
+   }
+
+   .foto {
+     display: inline-block;
+     border: 3px solid rgb(1, 1, 1);
+     padding: 5px;
+     height: 283px;
+     background-color: rgb(248, 248, 248);
+     margin-left: 185px;
+     margin-bottom: 100px;
+   }
+
+   .foto h3 {
+     border:  3px solid black;
+     background-color:rgba(255, 255, 255, 0.601);
+     padding: 10px;
+     border-radius: 10px;
+
+   }
+
+   .fotolebaran h2 {
+     border: 3px solid black;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: aliceblue;
+     width: 400px;
+     margin-left: 200px;
+   }
+
+}
+/*pengaturan hp*/
+@media screen and (max-width:767px) {
+  body {
+    background-color: bisque;
+  }
+  
+  .Judul {
+    color: rgb(2, 2, 2);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 235%;
+  }
+
+  .textbergerak {
+    background-color: rgba(255, 255, 255, 0.601);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: x-large;
+    min-width: 950px;
+    height: 450%;
+  }
+
+  audio {
+    margin-left: 340px;
+  }
+
+  button {
+    margin-top: 50px;
+    margin-left: 420px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: larger;
+  }
+
+  .DAFTARJADWAL {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.601);
+    margin-left: 25px;
+  }
+
+  .DAFTARSISWA h2{
+    border: 3px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: 255, 255, 255, 0.601;
+    margin-left: 335px;
+  }
+
+  #siswa {
+   display: inline-block;
+   justify-content: center;
+   margin-left: 320px;
+  }
+
+
+  .tabelsiswa div{
+    border: 3px solid black;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    font-size: x-large;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .JADWALPIKET h2{
+   border: 3px solid black;
+   background-color: aliceblue;
+   border-radius: 10px;
+   padding: 7px;
+   width: 300px;
+   margin-left: 335px;
+  }
+
+  #piket {
+   display: inline-block;
+   justify-content: center;
+   margin-left: 320px;
+  }
+
+  .tabelpiket div{
+   border: 3px solid black;
+   display: inline-block;
+   width: 300px;
+   height: 315px;
+   font-size: x-large;
+   padding-left: 10px;
+   background-color: rgba(255, 255, 255, 0.601);
+   border-radius: 20px;
+   margin-bottom: 25px;
+  }
+
+  .vidlebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: 273px;
+  }
+
+  .video h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #videoku { 
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+  }
+
+  .video {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 295px;
+    background-color: rgb(248, 248, 248);
+    margin-left: 220px;
+    margin-bottom: 100px;
+  }
+
+  #fotoku {
+    color: rgb(19, 17, 17);
+    margin-top: 200px;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px;
+  }
+
+  .foto {
+    display: inline-block;
+    border: 3px solid rgb(1, 1, 1);
+    padding: 5px;
+    height: 283px;
+    background-color: rgb(248, 248, 248);
+    margin-left: 220px;
+    margin-bottom: 100px;
+  }
+
+  .foto h3 {
+    border:  3px solid black;
+    background-color:rgba(255, 255, 255, 0.601);
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+  .fotolebaran h2 {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: 273px;
+  }
+}
